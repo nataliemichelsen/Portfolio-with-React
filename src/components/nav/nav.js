@@ -1,4 +1,3 @@
-// react import
 import React from "react"
 import { Link } from "react-router-dom"
 import './components.css'
@@ -11,11 +10,6 @@ function Nav() {
     return (
         <nav className="navbar">
             <span id="header" className="navbar-brand mb-1 h1">Natalie Michelsen</span>
-            {/* <button className="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-            </button> */}
             <div className="stretch">
                 <ul id="items" className="nav navbar-nav navbar-right">
                     <li className="nav-item1">
@@ -45,5 +39,4 @@ function Nav() {
     )
 }
 
-// react export
 export default Nav
