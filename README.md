@@ -52,11 +52,11 @@ If you are opting out of career services, this is *still a required assignment*.
 
 - [x] Your updated site should still have all of the content it previously had:
 
-    - Your name
+      - Your name
 
-    - Links to your GitHub profile & LinkedIn page as well as your email address and phone number
+      - Links to your GitHub profile & LinkedIn page as well as your email address and phone number
 
-    - A link to a PDF of your resume with updated projects
+      - A link to a PDF of your resume with updated projects
 
 - [x] A list of projects. For each project, make sure you have the following:
 
