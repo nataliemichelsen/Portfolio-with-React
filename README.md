@@ -34,19 +34,19 @@ If you are opting out of career services, this is *still a required assignment*.
 
 ## 📌 **Assignment Requirements**
 
-- [x] * Updated portfolio featuring 6 total projects
+- [x] - Updated portfolio featuring 6 total projects
 
-- [x] * Use React
+- [x] - Use React
 
-- [x] * A `Header` component that appears on multiple pages
+- [x] - A `Header` component that appears on multiple pages
 
-- [x] * A single `Project` component that will be used multiple times on a single page 
+- [x] - A single `Project` component that will be used multiple times on a single page 
 
-- [x] * Navigation with React Router, dynamic rendering, or another third part router
+- [x] - Navigation with React Router, dynamic rendering, or another third part router
 
-- [x] * A `Footer` component that appears on multiple pages
+- [x] - A `Footer` component that appears on multiple pages
 
-- [x] * Update GitHub profile with pinned repositories featuring those same projects
+- [x] - Update GitHub profile with pinned repositories featuring those same projects
 
 ## 🔲 **Objective**
 
