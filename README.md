@@ -2,8 +2,6 @@
 
 **To see this site live with GitHub Pages, click [here](https://nataliemichelsen.github.io/Portfolio-with-React/).**
 
-**To see this site live on Heroku, click [here](https://dashboard.heroku.com/apps/natalie-react-portfolio).**
-
 ## **Table of Contents**
 
 * Project Description
