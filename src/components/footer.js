@@ -1,6 +1,6 @@
 // react import
 import React from 'react';
-import '../components.css';
+import './components.css';
 
 // class -> className
 function Footer() {

@@ -1,8 +1,8 @@
 // react import
 import React from "react"
 import { Link } from "react-router-dom"
-import '../components.css'
-import Resume from '../../docs/Natalie-Resume.pdf';
+import './components.css'
+import Resume from '../docs/Natalie-Resume.pdf';
 
 // class -> className
 // href -> to
