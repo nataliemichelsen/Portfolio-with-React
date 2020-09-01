@@ -79,7 +79,7 @@ If you are opting out of career services, this is *still a required assignment*.
 
       - Make sure the font size is large enough to read, and that the colors don't cause eye strain.
 
-* *If you want to go above and beyond, try using animations and react component libraries. Note that this will _not_ affect your grade, but it may impact how potentials employers gauge your knowledge.
+*If you want to go above and beyond, try using animations and react component libraries. Note that this will _not_ affect your grade, but it may impact how potentials employers gauge your knowledge.
 
 ## 🔑 **Usage**
 
