@@ -13,7 +13,7 @@ import "./portfolio.css";
 
 class Portfolio extends Component {
   state = {
-    title: "My Portfolio",
+    title: "Natalie Michelsen",
     info: "",
     img: "",
     alt: "",
