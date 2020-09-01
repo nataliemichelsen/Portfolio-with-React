@@ -8,6 +8,7 @@ import Portfolio from "./pages/portfolio/portfolio";
 
 function App() {
   return (
+    <>
     <Router>
       <div>
         {/* <Nav/> */}
@@ -18,6 +19,7 @@ function App() {
         </Switch>
       </div>
     </Router>
+    </>
   );
 }
 
