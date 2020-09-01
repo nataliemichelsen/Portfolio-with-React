@@ -2,188 +2,178 @@ export default function (projectData) {
     switch (projectData) {
         case 'password':
             return {
-                title: '',
+                title: 'Random Password Generator',
                 img: '',
-                alt: '',
+                alt: 'Random Password',
                 gitLink: '',
                 liveLink: '',
                 marginTop: '44px',
-                description: '',
-            }
+                description: 'Always keep your passwords random.',
+            };
 
         case 'quiz':
             return {
-                title: '',
+                title: 'Coding Quiz',
                 img: '',
-                alt: '',
+                alt: 'SMCIV4 Quiz',
                 gitLink: '',
                 liveLink: '',
                 marginTop: '44px',
-                description: '',
+                description: 'Do you know your SMCIV4 Quotes? Test your skills with this short quiz.',
             };
 
         case 'scheduler':
             return {
-                title: '',
+                title: 'Work Day Scheduler',
                 img: '',
-                alt: '',
+                alt: 'Day Planner',
                 gitLink: '',
                 liveLink: '',
                 marginTop: '44px',
-                description: '',
+                description: 'Keep track of your schedule, one day at a time.',
             };
 
         case 'weather':
             return {
-                title: '',
+                title: 'Weather App',
                 img: '',
-                alt: '',
+                alt: 'Weather API',
                 gitLink: '',
                 liveLink: '',
                 marginTop: '44px',
-                description: '',
+                description: 'Check the weather anywhere by ZIP Code.',
             };
 
         case 'profiles':
             return {
-                title: '',
+                title: 'Team Profile Generator',
                 img: '',
-                alt: '',
+                alt: 'Profile Creator',
                 gitLink: '',
                 liveLink: '',
                 marginTop: '44px',
-                description: '',
+                description: 'Create new employee profiles quickly and easily.',
             };
 
         case 'notes':
             return {
-                title: '',
+                title: 'Note Taker',
                 img: '',
-                alt: '',
+                alt: 'Notepad',
                 gitLink: '',
                 liveLink: '',
                 marginTop: '44px',
-                description: '',
+                description: 'Keep, save, and delete personal notes with this handy app.',
             };
 
         case 'readme':
             return {
-                title: '',
+                title: 'README Generator',
                 img: '',
-                alt: '',
+                alt: 'README Quiz',
                 gitLink: '',
                 liveLink: '',
                 marginTop: '44px',
-                description: '',
+                description: 'Create new READMEs with this organized quiz.',
             };
 
         case 'ems':
             return {
-                title: '',
+                title: 'Employee Management System',
                 img: '',
-                alt: '',
+                alt: 'Employee Database',
                 gitLink: '',
                 liveLink: '',
                 marginTop: '44px',
-                description: '',
+                description: 'Keep track of current employees plus create, delete, or edit new employees.',
             };
 
         case 'handlebars':
             return {
-                title: '',
+                title: 'Node Handlebars',
                 img: '',
-                alt: '',
+                alt: 'Eat The Burger',
                 gitLink: '',
                 liveLink: '',
                 marginTop: '44px',
-                description: '',
-            };
-
-        case 'reverse':
-            return {
-                title: '',
-                img: '',
-                alt: '',
-                gitLink: '',
-                liveLink: '',
-                marginTop: '44px',
-                description: '',
+                description: 'Eat burgers. Keep track of burgers already eaten. Eat more burgers.',
             };
 
         case 'fitness':
             return {
-                title: '',
+                title: 'Fitness Tracker',
                 img: '',
-                alt: '',
+                alt: 'Workout Creator',
                 gitLink: '',
                 liveLink: '',
                 marginTop: '44px',
-                description: '',
+                description: 'Keep track of past workouts and create new exercises to reach personal fitness goals.',
             };
 
         case 'budget':
             return {
-                title: '',
+                title: 'Budget Tracker',
                 img: '',
-                alt: '',
+                alt: 'Budget Tracker',
                 gitLink: '',
                 liveLink: '',
                 marginTop: '44px',
-                description: '',
+                description: 'A budget calendar that logs past withdraw and deposit transactions.',
             };
 
         case 'users':
             return {
-                title: '',
+                title: 'User Directory',
                 img: '',
-                alt: '',
+                alt: 'Random Users',
                 gitLink: '',
                 liveLink: '',
                 marginTop: '44px',
-                description: '',
-            }
+                description: 'Search the database for users by name.',
+            };
 
         case 'stocks':
             return {
-                title: '',
+                title: 'Stocks 2.0',
                 img: '',
-                alt: '',
+                alt: 'Stocks 2.0',
                 gitLink: '',
                 liveLink: '',
                 marginTop: '44px',
-                description: '',
+                description: 'Keep up to date on all stocks. Save your favorites to a quick-list. Check current stock and financial news.',
             };
 
         case 'stories':
             return {
-                title: '',
+                title: 'Story Lines',
                 img: '',
-                alt: '',
+                alt: 'Story Lines',
                 gitLink: '',
                 liveLink: '',
                 marginTop: '44px',
-                description: '',
+                description: 'A simpler task, story, and project management app.',
             };
 
         case 'recipes':
             return {
-                title: '',
+                title: 'ReciPique',
                 img: '',
-                alt: '',
+                alt: 'ReciPique',
                 gitLink: '',
                 liveLink: '',
                 marginTop: '44px',
-                description: '',
-            }
+                description: 'Social Recipe Sharing Platform and Recipe Saver',
+            };
 
-            default:
-                return {
-                    title: 'ReciPique',
-                    img: '',
-                    gitLink: '',
-                    liveLink: '',
-                    marginTop: '44px',
-                    description: '',
-                }
-        }
+        default:
+            return {
+                title: 'ReciPique',
+                img: '',
+                alt: 'ReciPique',
+                gitLink: '',
+                liveLink: '',
+                marginTop: '44px',
+                description: 'Social Recipe Sharing Platform and Recipe Saver',
+            };
     }
+}

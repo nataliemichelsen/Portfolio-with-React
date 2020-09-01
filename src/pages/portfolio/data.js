@@ -56,12 +56,6 @@ export default {
             alt: 'Eat The Burger',
             name: 'Node Handlebars'
         },
-        {
-            data: '',
-            img: './',
-            alt: 'Mini Quiz',
-            name: 'Reverse Engineering Authentication'
-        },
     ],
     sectionThree: [
         {
