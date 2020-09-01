@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { Component } from "react";
 
-class Contact extends React.Component {
+class Contact extends Component {
   constructor(props) {
     super(props);
     this.state = { value: "", name: "", phone: "", email: "", message: "" };
@@ -32,6 +32,10 @@ class Contact extends React.Component {
     alert("A form was submitted: " + this.state.value);
     event.preventDefault();
   }
+
+  componentDidMount() {
+    document.title = 'Natalie Michelsen';
+}
 
   render() {
     return (
