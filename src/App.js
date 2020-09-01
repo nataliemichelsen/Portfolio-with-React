@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Nav from './components/nav/nav';
-import Footer from './components/footer/footer';
 import About from "./pages/about"
 import Contact from "./pages/contact"
 import Portfolio from "./pages/portfolio"
@@ -19,7 +18,6 @@ function App() {
           <Route exact path= '/portfolio' component= {Portfolio}/> 
           <Route exact path= '/projects' component= {Projects}/> 
         </Switch>
-        <Footer/>
       </div>
     </Router>
   );
