@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import projects from "./projects";
+import projects from "../portfolio/project";
 import data from "./data";
 
 // for images
