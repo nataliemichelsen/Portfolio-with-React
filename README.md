@@ -40,7 +40,7 @@ If you are opting out of career services, this is *still a required assignment*.
 
 - [x] * A `Header` component that appears on multiple pages
 
-* A single `Project` component that will be used multiple times on a single page 
+- [x] * A single `Project` component that will be used multiple times on a single page 
 
 - [x] * Navigation with React Router, dynamic rendering, or another third part router
 
@@ -62,11 +62,11 @@ Your updated site should still have all of the content it previously had:
 
   - [x] * Project title
 
-  * Link to the deployed version
+  - [x] * Link to the deployed version
 
   - [x] * Link to the GitHub repository
 
-  * GIF or screenshot of the deployed application
+  - [x] * GIF or screenshot of the deployed application
   
 As with the previous portfolio homework, "good" design is subjective. Your site should look
 "polished." Here are a few guidelines on what that means:
