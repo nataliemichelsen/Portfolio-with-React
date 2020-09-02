@@ -27,6 +27,9 @@ function Nav() {
             <Link className="nav-link" to="Contact">
               Contact
             </Link>
+            <Link className="dropdown-item" to="">
+            Heroku
+          </Link>
           </li>
         </ul>
       </div>

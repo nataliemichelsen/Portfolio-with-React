@@ -1,9 +1,17 @@
 import React from 'react';
-import ReactDom from 'react-dom';
-import App from './App';
-
-// index css & footer
+import ReactDOM from 'react-dom';
 import './index.css';
-import Footer from './components/footer/footer';
+import App from './App';
+import * as serviceWorker from './serviceWorker';
 
-ReactDom.render([<App key='1' />, <Footer key='2' />], document.getElementById('root'));
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();
