@@ -1,10 +1,10 @@
 import React, { Component } from "react";
+
+// for project data
 import projects from "../portfolio/project";
 import data from "./data";
 
-// for images
-import Carousel from "react-bootstrap/Carousel";
-
+// components
 import Container from "../../components/container/container";
 import Card from "../../components/card/card";
 import Project from "../../components/projects/projects";
@@ -46,85 +46,11 @@ class Portfolio extends Component {
   render() {
     const body = this.state.body;
     return (
-      <Container fluid="-fluid">
+      <Container>
         {!body ? (
           <div>
-            <div id="desktop">
+            <div id="mobile-first">
               <Card title={this.state.title} id="portfolio">
-                <Carousel interval={null}>
-                  <Carousel.Item>
-                    <Container min={true}>
-                      <div className="row sectionOne" id="sectionOne">
-                        {data.sectionOne.map((res, i) => (
-                          <Project
-                            key={i}
-                            data={res.data}
-                            img={res.img}
-                            alt={res.alt}
-                            name={res.name}
-                            handleClick={this.handleClick}
-                          />
-                        ))}
-                      </div>
-                    </Container>
-                  </Carousel.Item>
-
-                  <Carousel.Item>
-                    <Container min={true}>
-                      <div className="row sectionTwo" id="sectionTwo">
-                        {data.sectionTwo.map((res, i) => (
-                          <Project
-                            key={i}
-                            data={res.data}
-                            img={res.img}
-                            alt={res.alt}
-                            name={res.name}
-                            handleClick={this.handleClick}
-                          />
-                        ))}
-                      </div>
-                    </Container>
-                  </Carousel.Item>
-
-                  <Carousel.Item>
-                    <Container min={true}>
-                      <div className="row sectionThree" id="sectionThree">
-                        {data.sectionThree.map((res, i) => (
-                          <Project
-                            key={i}
-                            data={res.data}
-                            img={res.img}
-                            alt={res.alt}
-                            name={res.name}
-                            handleClick={this.handleClick}
-                          />
-                        ))}
-                      </div>
-                    </Container>
-
-                    <Carousel.Item>
-                      <Container min={true}>
-                        <div className="row mainSection" id="mainSection">
-                          {data.collaborations.map((res, i) => (
-                            <Project
-                              key={i}
-                              data={res.data}
-                              img={res.img}
-                              alt={res.alt}
-                              name={res.name}
-                              handleClick={this.handleClick}
-                            />
-                          ))}
-                        </div>
-                      </Container>
-                    </Carousel.Item>
-                  </Carousel.Item>
-                </Carousel>
-              </Card>
-            </div>
-
-            <div id="mobile">
-              <Card title={this.state.title} id="mobilePortfolio">
                 <Container>
                   <div>
                     {data.allProjects.map((res, i) => (
@@ -150,14 +76,14 @@ class Portfolio extends Component {
                   <img
                     src={this.state.img}
                     alt={`Screenshot of ${this.state.alt}`}
-                    className="portfolioImage"
-                    id="portfolioImage"
+                    className="portfolio-image"
+                    id="portfolio-image"
                   />
                 </div>
                 <div className="col-lg-8 info">
-                  <h4 className="infoTitle">Info</h4>
-                  <p className="infoText">{this.state.info}</p>
-                  <h4 className="linksTitle">Links</h4>
+                  <h4 className="info-title">Info</h4>
+                  <p className="info-text">{this.state.info}</p>
+                  <h4 className="links-title">Links</h4>
                   <div className="links">
                     <div className="liveLink"></div>
                   </div>
