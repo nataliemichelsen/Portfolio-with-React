@@ -2,7 +2,10 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Container from "../components/container/container";
 import Card from "../components/card/card";
+
 import "./pages.css";
+
+import Picture from "";
 import Resume from "../docs/Natalie-Resume.pdf";
 
 class About extends Component {
@@ -21,7 +24,9 @@ class About extends Component {
           <>
             <div className="about">
               <div>
-                {/* <img id='profile-image' src='' alt="Profile" /> */}
+              <div className="col-md-3">
+              <img src={Picture} alt="Natalie Michelsen" className="img-thumbnail" />
+              </div>
                 <p className="about-details">Hello, my name is Natalie.</p>
                 <p className="about-details">
                   I am a recent student of the UofU Full Stack Web Dev Boot

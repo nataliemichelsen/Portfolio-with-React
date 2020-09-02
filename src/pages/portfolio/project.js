@@ -92,7 +92,7 @@ export default function (dataName) {
             return {
                 title: 'Node Handlebars',
                 info: 'Eat burgers. Keep track of burgers already eaten. Eat more burgers.',
-                img: '',
+                img: './images/none',
                 alt: 'Eat The Burger',
                 gitLink: 'https://github.com/nataliemichelsen/Node-Handlebars',
                 liveLink: 'https://git.heroku.com/natalie-node-handlebars.git',
@@ -125,7 +125,7 @@ export default function (dataName) {
             return {
                 title: 'User Directory',
                 info: 'Search the database for users by name.',
-                img: '',
+                img: './images/none',
                 alt: 'Random Users',
                 gitLink: 'https://github.com/nataliemichelsen/User-Directory',
                 liveLink: 'https://nataliemichelsen.github.io/User-Directory/',
@@ -158,7 +158,7 @@ export default function (dataName) {
             return {
                 title: 'ReciPique',
                 info: 'Social Recipe Sharing Platform and Recipe Saver',
-                img: '',
+                img: './images/none',
                 alt: 'ReciPique',
                 gitLink: 'https://github.com/nataliemichelsen/Project-3-Recipe-Index',
                 liveLink: 'https://recipique.herokuapp.com/',
@@ -167,11 +167,11 @@ export default function (dataName) {
 
         default:
             return {
-                title: 'ReciPique',
-                info: 'Social Recipe Sharing Platform and Recipe Saver',
-                img: '',
-                alt: 'ReciPique',
-                gitLink: '',
+                title: 'Story Lines',
+                info: 'A simpler task, story, and project management app.',
+                img: './images/stories',
+                alt: 'Story Lines',
+                gitLink: 'https://github.com/Jollyrgr83/project-2',
                 liveLink: '',
                 marginTop: '44px',
             };
